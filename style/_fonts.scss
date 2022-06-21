@@ -1,0 +1,49 @@
+@font-face {
+    font-family: poetsonOne;
+    src: url(/fonts/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+
+
+h1, h2, h3, h4, button, nav {
+    font-family: poetsonOne;
+    text-transform: uppercase;
+}
+
+h1, nav {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+h1 {
+    color: #fff;
+}
+
+nav {
+    font-size: x-large;
+    -webkit-text-stroke-width: 1px;
+}
+
+nav li:hover {
+    :hover {
+        -webkit-text-stroke-color: #C23616;
+        color: #fff;
+    
+        }
+}
+
+p {
+    line-height: 20px;
+}
+
+
+
+* {
+    font-family: poppins;
+
+}
+

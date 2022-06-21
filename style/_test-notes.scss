@@ -1,0 +1,20 @@
+.note-container {
+    height: 100%;
+}
+
+.stave-note {
+    width: 100%;
+    height: auto;
+}
+
+.fadeOut{
+	opacity:0.7;
+}
+
+/*Used this methods to change opacity of element when dragged
+Needed to do this since the opacity parameter in jQuery added inline styling
+which stopped the fadeOut class being applied when checking correct order*/
+
+.ui-sortable-helper{
+	opacity:0.5;
+}

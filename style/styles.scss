@@ -1,0 +1,48 @@
+@import "_bg-colours";
+@import "_fonts";
+@import "_images";
+@import "_footer";
+@import "_flexbox";
+@import "_test-notes";
+@import "_test-chords";
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+.nav-link, .navbar-brand {
+    color: #fff;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #0097E6;
+    border-color: #00A8FF;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+
+
+
