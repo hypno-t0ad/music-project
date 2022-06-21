@@ -1,16 +1,16 @@
 @font-face {
-    font-family: poetsonOne;
+    font-family: 'poetsonOne';
     src: url(/fonts/PoetsenOne-Regular.ttf);
 }
 
 @font-face {
-    font-family: poppins;
+    font-family: 'poppins';
     src: url(/fonts/Poppins-Medium.ttf);
 }
 
 
 h1, h2, h3, h4, button, nav {
-    font-family: poetsonOne, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'poetsonOne', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
 }
 
@@ -34,10 +34,6 @@ nav li:hover {
         color: #fff;
     
         }
-}
-
-p {
-    line-height: 20px;
 }
 
 
