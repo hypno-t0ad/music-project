@@ -50,16 +50,6 @@
   border-radius: 20px;
 }
 
-@font-face {
-  font-family: poetsonOne;
-  src: url(/fonts/PoetsenOne-Regular.ttf);
-}
-
-@font-face {
-  font-family: poppins;
-  src: url(/fonts/Poppins-Medium.ttf);
-}
-
 h1, h2, h3, button, nav {
   font-family: poetsonOne;
   text-transform: uppercase;
